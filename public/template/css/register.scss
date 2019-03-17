@@ -1,0 +1,21 @@
+#box-t{
+    border-bottom: 1px solid #C40001;height: 100px;
+    .logo{width: 500px;float: left;margin-top:25px;}
+    p{float: right;margin-top:62px;margin-right:20px;font-size: 12px;
+        .dl{display: inline-block;font-size: 12px;color: #C40001;}}
+}
+
+.regPcon{
+  
+    width: 600px;height: 384px;padding: 60px 300px;
+    h2{color:#FD8CB0 ;font-size: 28px;margin-bottom:30px;  text-align: center;}
+    #registerForm{
+        margin: 0 132px;
+        p{width: 600px;  
+            label{font:700 12px/42px "";width:64px;height: 42px;display: -webkit-inline-box;text-align: right;    text-align: -webkit-right;}
+            input{width:266px;height: 38px;border: 1px solid #EEEEEE;text-indent: 5px;margin-bottom: 20px;}}
+      
+        #regBtn{height:40px;margin-left: 40px;background: #FD8CB0;border: none;border-radius: 5px;color: #fff;font:700 16px/40px ""; width: 300px;}
+    }
+    
+}

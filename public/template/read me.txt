@@ -1,0 +1,13 @@
+环境是gulp;
+
+登陆网址：http://localhost:9876/
+
+根目录 src
+
+首页：
+登陆，注册可点击分别跳转至 landing.html 与 register.html
+头部：所有在售商品，在售商品，可点击跳转到商品页（goods.html）
+
+注：在售商品（http://localhost:9876/goods.html）内产品可添加购物车，点击加入购物车----》点击头部  （去购物车）可以跳转购物车页面（http://localhost:9876/car.html)	
+
+注：若添加购物车未成功，麻烦老师在goods产品页，刷新下Cookie

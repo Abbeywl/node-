@@ -1,0 +1,24 @@
+#top{
+    height: 100px;background: #fff;margin-top: 20px;
+    img{display: block;float: left;margin-right: 50px;}
+    h1{display: block;float: left;border-left:1px solid #eee ;font: 24px/60px "";text-indent: 50px;}
+}
+
+
+.main{
+    height: 580px;background: url(http://pic.qianmi.com/astore/d2c/common-new-ysc-adjust/images/bg_07.jpg) no-repeat center;
+   form{background:#fff;float: right; padding: 20px 25px;width: 300px;height:300px;border: 5px solid #EF8898;margin: 54px 150px;
+       a{color: #C40001;float: right;font-size:12px;margin-top: 25px;}
+       input{width: 300px;height: 36px;border: 1px solid #D3D3D3;margin-top: 25px;}
+       #user{background: url(../imgs/tel.png) no-repeat 8px 10px ;text-indent: 24px;padding:10px 8px;box-sizing: border-box;}
+       #pass{background: url(../imgs/pass.png) no-repeat 8px 10px;text-indent: 24px;padding: 10px 8px;box-sizing: border-box;}
+       p{overflow:hidden;font: 12px/20px "";
+           input{width: 13px;height: 13px;float: left;}
+           span{float:left;margin-left: 10px;margin-top: 22px;}
+           a{float: right;}
+       }
+       #sunb{background: #C40001;color:#fff;width: 300px;height: 36px;font-size: 20px;}
+       .cheak{font: 14px/22px "";color: #C40001;text-align: center;width: 300px;height: 22px;margin-top: 10px;}
+   }
+    
+}

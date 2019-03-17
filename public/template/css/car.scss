@@ -1,0 +1,61 @@
+#car-top{
+    height: 40px;font:12px/40px "";background: #F5F5F5;text-align: center;
+    a{color: #b0b0b0;}
+    a:hover{color: #C40001;}
+    .t-left{width: 90px;float: left;}
+.t-right{
+    width:232px;float: right;
+    a,span,p{display:inline-block;}
+    span{color:#b0b0b0;margin: 0 5px;}
+    p{margin-left: 15px;width: 120px;
+        a{cursor: pointer;padding:0 20px;&:hover{background: #fff;color:#C40001;}}
+    }
+     }
+}
+#header-car{
+    height: 72px;margin-top:12px;
+    .logo{float: left;width: 185px;height: 66px;}
+    ul{float: right;height: 30px;
+        li{float: left;width: 228px;text-indent: 20px;text-align: center;border-right:4px dashed #fff;
+        color:#333333;background:#F5F5F5 ;font: 14px/30px "";}
+    }
+}
+
+.txt-name{height: 32px;padding: 5px 2px;border-top: 2px solid #FD8CB0;background: #F5F5F5;margin-top: 40px;font: 12px/32px "";
+    form{float: left;  margin-left: 10px;span{margin-left: 70px;}}
+    .txt-r{float: right;width: 440px;
+       span:first-child{margin-right: 80px;}
+        span:nth-child(2){ margin-right: 129px;}
+        span:nth-child(3){margin-right: 30px;}
+    }
+}
+
+.car-list{font-size: 12px;border: 1px solid #E9E9E9;margin-top: 20px;
+    .list-top{height:26px;border-bottom: 1px solid #E9E9E9;padding: 10px 10px;
+        span:first-child{width: 46px;font: 12px/20px "";background: #F48719;color: #fff;margin-right: 20px;display: inline-block;text-align: center;}
+    }
+    .goods-list{
+        padding: 10px 10px;background: #FAFAFA;
+        .good-form{display: flex;align-items: flex-start; border-bottom:1px  solid #e9e9e9;
+            padding:10px 10px;
+            height: 82px;
+            input,img,span,a,i{display: inline-block;}
+            img{width: 80px;height: 80px;margin: 0 10px 0 20px;}
+            .name{width: 640px;font-size: 14px;}
+            .dj{margin-right:74px;font: 14px/30px "";}
+            #num{width: 70px;height: 24px;font: 14px/24px "";text-align: center;}
+            .price{font: 700 14px/30px ""; margin: 0 5px 0 0px;width: 150px;text-align: right;}
+            .clear{font:14px/30px "";cursor: pointer;margin-left: 22px;}
+            i{font: 700 14px/30px "";}
+        }
+    }
+    .cont-box{height:100px;background: #FAFAFA;
+        .cont{width: 300px;float: right;
+            span{display: inline-block;
+                &:first-child{font:700 16px/100px "";}
+                &:nth-child(2){font:700 18px/100px "";color: red;width: 100px;text-align: center;}
+            }
+        }
+    }
+    
+}

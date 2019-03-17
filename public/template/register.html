@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="./css/register.css"/>
+	<link rel="stylesheet" type="text/css" href="./css/index.css"/>
+	
+	<body>
+		<div id="box-t" class="margin">
+			<div class="logo">
+				<a href="index.html"><img src="https://img.1000.com/qm-a-img/prod/1308513/8d0c1df0545fa958a41b45e7b0b3dd45.jpg@185w_60h_1wh.jpg"/></a>
+			</div>
+			<p><span>已有账号，</span><a class="dl" href="landing.html">请登录</a></p>
+		</div>
+		<div class="regPcon regPcon01">
+            <div class="regWelcome">
+                <h2 class="mb30">欢迎注册</h2>
+            </div>
+            <form id="registerForm" method="post" action="/register" novalidate="">
+                <input type="hidden" id="pwdLevel" name="pwdLevel" value="">
+                <p class="pisive clearfix">
+                    <label for="CelNum">用户名：</label>
+                    <input type="text" placeholder="请输入用户名" id="user" required=true data-rule="mobile" class="cel-num" digits=true>
+                    <span class="msg"></span>
+                </p>
+                
+
+         
+                <p class="pisive clearfix"><label for="passWord">设置密码：</label>
+                    <input onpaste="return false" required=true placeholder="请输入6-20位密码"  maxlength="6" minlength="12"required=true  type="password" name="passWord" id="passWord" >
+                    <span class="msg"></span>
+                </p>
+                <p class="pisive clearfix">
+                    <label for="CelNum">手机号：</label>
+                    <input type="text" required=true placeholder="请输入手机号"  id="number" maxlength="11" minlength="11" digits=true>
+                    
+                </p>
+                <button type="button" id="regBtn">注  册</button>
+            </form>
+        </div>
+        <div id="reb">
+        	
+        </div>
+        
+	</body>
+	
+	<script src="libs/jquery.js" type="text/javascript" charset="utf-8"></script>
+	<script src="libs/jquery.validate.js" type="text/javascript" charset="utf-8"></script>
+	<script src="libs/jquery.validate.messages_zh.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/register.js" type="text/javascript" charset="utf-8"></script>
+</html>

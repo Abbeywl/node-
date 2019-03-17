@@ -1,0 +1,29 @@
+.xq-box {
+  margin-top: 20px; }
+  .xq-box .tab_box .box {
+    margin: 5px 0;
+    width: 235px;
+    border: solid 1px black;
+    box-sizing: border-box;
+    text-align: center;
+    float: left; }
+    .xq-box .tab_box .box img {
+      width: 230px;
+      height: 230px;
+      display: block;
+      margin: 5px auto; }
+    .xq-box .tab_box .box span {
+      display: block;
+      color: red; }
+    .xq-box .tab_box .box p {
+      height: 40px;
+      overflow: hidden;
+      font-size: 14px;
+      line-height: 20px; }
+    .xq-box .tab_box .box em {
+      display: block;
+      width: 120px;
+      line-height: 22px;
+      padding-right: 20px;
+      background: url(../imgs/car.png) no-repeat right;
+      margin: 5px auto; }

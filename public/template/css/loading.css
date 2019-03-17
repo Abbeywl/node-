@@ -1,0 +1,72 @@
+#top {
+  height: 100px;
+  background: #fff;
+  margin-top: 20px; }
+  #top img {
+    display: block;
+    float: left;
+    margin-right: 50px; }
+  #top h1 {
+    display: block;
+    float: left;
+    border-left: 1px solid #eee;
+    font: 24px/60px "";
+    text-indent: 50px; }
+
+.main {
+  height: 580px;
+  background: url(http://pic.qianmi.com/astore/d2c/common-new-ysc-adjust/images/bg_07.jpg) no-repeat center; }
+  .main form {
+    background: #fff;
+    float: right;
+    padding: 20px 25px;
+    width: 300px;
+    height: 300px;
+    border: 5px solid #EF8898;
+    margin: 54px 150px; }
+    .main form a {
+      color: #C40001;
+      float: right;
+      font-size: 12px;
+      margin-top: 25px; }
+    .main form input {
+      width: 300px;
+      height: 36px;
+      border: 1px solid #D3D3D3;
+      margin-top: 25px; }
+    .main form #user {
+      background: url(../imgs/tel.png) no-repeat 8px 10px;
+      text-indent: 24px;
+      padding: 10px 8px;
+      box-sizing: border-box; }
+    .main form #pass {
+      background: url(../imgs/pass.png) no-repeat 8px 10px;
+      text-indent: 24px;
+      padding: 10px 8px;
+      box-sizing: border-box; }
+    .main form p {
+      overflow: hidden;
+      font: 12px/20px ""; }
+      .main form p input {
+        width: 13px;
+        height: 13px;
+        float: left; }
+      .main form p span {
+        float: left;
+        margin-left: 10px;
+        margin-top: 22px; }
+      .main form p a {
+        float: right; }
+    .main form #sunb {
+      background: #C40001;
+      color: #fff;
+      width: 300px;
+      height: 36px;
+      font-size: 20px; }
+    .main form .cheak {
+      font: 14px/22px "";
+      color: #C40001;
+      text-align: center;
+      width: 300px;
+      height: 22px;
+      margin-top: 10px; }
